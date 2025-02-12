@@ -1,2 +1,2 @@
 [build]
-  command = "corepack disable && npm install -g pnpm@8.15.4 && pnpm install && pnpm run build"
+  command = "pnpm install --frozen-lockfile && pnpm run build"
