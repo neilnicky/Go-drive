@@ -1,2 +1,2 @@
 [build]
-  node_version = "18.17.0"
+  command = "corepack disable && npm install -g pnpm@8.15.4 && pnpm install && pnpm run build"
