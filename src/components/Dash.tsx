@@ -249,7 +249,7 @@ export default function Component() {
             </Breadcrumb>
           </div>
 
-          <div className="rounded-lg border bg-card overflow-x-auto">
+          <div className="rounded-lg border bg-card w-[91%]">
             <div className="flex items-center gap-4 p-2 border-b bg-muted/50">
               <Checkbox
                 checked={selectedItems.length === filteredFiles.length}
