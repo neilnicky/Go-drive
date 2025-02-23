@@ -1,4 +1,4 @@
-# Google Drive CLone
+# Google Drive Clone
 
 ## TODO 
 
