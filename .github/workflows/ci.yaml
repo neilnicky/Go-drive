@@ -21,3 +21,6 @@ jobs:
 
       - name: Lint
         run: pnpm lint
+
+      - name: Format (won't fail CI)
+        run: pnpm format || true
